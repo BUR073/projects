@@ -1,0 +1,140 @@
+<head> 
+    <title>Python Projects</title> 
+    <meta charset="UTF-8"> 
+    <meta name="description" content="Website for storing python projects">
+    <meta name="author" content="Conor Sheils"> 
+    <link rel="stylesheet" href="styles.css">
+
+</header>
+<body>
+<h2>
+    Python Conditions and If statements
+</h2>
+
+<p>
+    Python supports the usual logical conditions from mathematics:
+</p>
+
+<ul>
+    <li>
+        Equals: a == b
+    </li>
+
+    <li>
+        Not Equals: a != b
+    </li>
+
+    <li>
+        Less than: a < b
+    </li>
+
+    <li>
+        Less than or equal to: a <= b
+    </li>
+
+    <li>
+        Greater than: a > b
+    </li>
+
+    <li>
+        Greater than or equal to: a >= b
+    </li>
+</ul>
+
+<p>
+    These conditions can be used in several ways, most commonly in "if statements" and loops.
+</p>
+
+<p>
+    An "if statement" is written by using the if keyword.
+</p>
+
+<pre>
+    <code>
+a = 33
+b = 200
+if b > a:
+  print("b is greater than a")
+    </code>
+</pre>
+
+<p>
+    In this example we use two variables, a and b, 
+    which are used as part of the if statement to 
+    test whether b is greater than a. As a is 33, 
+    and b is 200, we know that 200 is greater than 33, 
+    and so we print to screen that "b is greater than a".
+</p>
+
+<h2>
+    Indentation
+</h2>
+
+<p>
+    Python relies on indentation (whitespace at the beginning of a line) 
+    to define scope in the code. Other programming languages often use 
+    curly-brackets for this purpose.
+</p>
+
+<p>
+    If statement, without indentation (will raise an error):
+</p>
+
+<pre>
+    <code>
+a = 33
+b = 200
+if b > a:
+print("b is greater than a") # you will get an error
+    </code>
+</pre>
+
+<h2>
+    Elif
+</h2>
+
+<p>
+    The elif keyword is pythons way of saying "if the previous conditions were not true, 
+    then try this condition".
+</p>
+
+<pre>
+    <code>
+a = 33
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+    </code>
+</pre>
+
+<p>
+    In this example a is equal to b, so the first condition is not true, 
+    but the elif condition is true, so we print to screen that "a and b are equal".
+</p>
+
+<p>
+    You can also have an else without the elif:
+</p>
+
+<pre>
+    <code>
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+else:
+  print("b is not greater than a")
+    </code>
+</pre>
+
+
+
+
+
+<p>
+    <a href="1.html">Back</a>
+</p>
+
+</body>

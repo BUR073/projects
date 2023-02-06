@@ -1,0 +1,128 @@
+<head> 
+    <title>Python Projects</title> 
+    <meta charset="UTF-8"> 
+    <meta name="description" content="Website for storing python projects">
+    <meta name="author" content="Conor Sheils"> 
+    <link rel="stylesheet" href="styles.css">
+
+</header>
+
+<body>
+    <h1>
+        Python Functions 
+    </h1>
+
+    <h2>
+        Creating a function
+    </h2>
+
+    <p>
+        In Python a function is defined using the 'def' keyword:
+    </p>
+
+    <h3>
+        Example:
+    </h3>
+    <p>
+        <pre>
+        <code>
+def my_function():
+    print("Hello from a function")
+        </code>
+        </pre>
+    </p>
+
+    <h2>
+        Calling a Function
+    </h2>
+
+    <p>
+        To call a function, use the function name followed by parenthesis:
+    </p>
+
+    <h3>
+        Exmaple: 
+    </h3>
+
+    <pre>
+        <code>
+def my_function():
+  print("Hello from a function")
+
+my_function()
+        </code>
+    </pre>
+    
+    <h2> 
+        Arguments
+    </h2>
+
+    <p> 
+        Information can be passed into functions as arguments.
+    </p>
+
+    <p>
+        Arguments are specified after the function name, 
+        inside the parentheses. You can add as many arguments 
+        as you want, just separate them with a comma.
+    </p>
+
+    <p>
+        The following example has a function with one argument (fname).
+        When the function is called, we pass along a first name, which 
+        is used inside the function to print the full name:
+    </p>
+
+    <pre>
+        <code> 
+def my_function(fname):
+  print(fname + " Refsnes")
+
+my_function("Emil")
+my_function("Tobias")
+my_function("Linus")
+        </code>
+    </pre>
+
+<p>
+    <em>
+        Arguments are often shortened to args in Python documentations.
+    </em>
+</p>
+
+<h2>
+    Number of Arguments
+</h2>
+
+<p>
+    By default, a function must be called with 
+    the correct number of arguments. Meaning that 
+    if your function expects 2 arguments, you have 
+    to call the function with 2 arguments, not more, 
+    and not less.
+</p>
+
+<h3>
+    Example: 
+</h3> 
+
+<p>
+    This function expects 2 arguments, and gets 2 arguments:
+</p>
+
+<pre>
+    <code>
+def my_function(fname, lname):
+  print(fname + " " + lname)
+
+my_function("Emil", "Refsnes")
+    </code>
+</pre>
+
+<p>
+    <a href="1.html">Back</a>
+</p>
+
+
+
+</body>

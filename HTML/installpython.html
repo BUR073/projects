@@ -1,0 +1,221 @@
+<head> 
+    <title>Python Projects</title> 
+    <meta charset="UTF-8"> 
+    <meta name="description" content="Website for storing python projects">
+    <meta name="author" content="Conor Sheils"> 
+    <link rel="stylesheet" href="styles.css">
+
+</header>
+
+<h1>Installing python</h1>
+
+<p>
+
+    Python 2 comes preinstalled on older versions of macOS.
+    This is no longer the case for current versions of macOS,
+    starting with macOS Catalina.
+
+    There are two installation methods on macOS:
+
+    <ol>
+        <li><strong>The official installer:</strong>This method involves 
+            downloading the official installer from the 
+            Python.org website and running it on your machine.
+        </li>
+
+        <li><strong>The homebrew package manager:</strong> This method involves 
+            downloading and installing the Homebrew package manager
+            if you dont already have it installed, and then typing
+             a command into a terminal application.
+        </li>
+    </ol> 
+
+
+</p>
+
+<h1>How to install from the offical installer</h1>
+
+<h2>1. Download the official installer</h2>
+
+<p>
+    Follow these steps to download the full installer:
+    <ol>
+        <li>
+            Open a browser window and navigate to the Python.org 
+            <a href="https://www.python.org/downloads/mac-osx/">downloads page for MacOS</a>
+        </li>
+
+        <li>Under the “Python Releases for Mac OS X” heading, click
+            the link for the Latest Python 3 Release - Python 3.x.x.
+            As of this writing, the latest version was Python 3.8.4.
+        </li>
+
+        <li>
+            Scroll to the bottom and click macOS 64-bit installer to start the download.
+        </li>
+
+    </ol>
+    When the installer is finished downloading, move on to the next step.
+</p>
+
+<h2>
+    2. Run the installer
+</h2>
+
+<p>
+    Run the installer by double-clicking the downloaded file. You should see the following window:
+</p>
+
+<img src="/Users/henryburbridge/Desktop/Computer Science/Programming/HTML/pythoninstallimg/install1.png" alt="Python install">
+
+<p>
+    Follow these steps to complete the installation:
+
+    <ol>
+        <li>
+            Press Continue a few times until youre asked to agree 
+            to the software license agreement. Then click Agree.
+        </li>
+
+        <li>
+            Youll be shown a window that tells you the install destination
+             and how much space it will take. You most likely dont want to
+            change the default location, so go ahead and click Install to 
+            start the installation.
+        </li>
+
+        <li>
+            When the installer is finished copying files, click Close to close 
+            the installer window.
+        </li>
+    
+    </ol>
+
+    <strong>Congratulations</strong>—you now have the latest version of Python 3 on your macOS computer!
+</p>
+
+<h1>
+    How to install from Homebrew
+</h1>
+
+<p>
+    For users who need to install from the command line, 
+    especially those who wont be using Python to develop 
+    graphical user interfaces with the Tkinter module, 
+    the Homebrew package manager is a good option. You
+    can install from the Homebrew package manager in two steps.
+
+
+</p>
+
+<h2>
+    Step 1: Install Homebrew 
+</h2>
+
+<p>
+    If you already have Homebrew installed, 
+    then you can skip this step. If you dont
+    have Homebrew installed, then use the following
+    procedure to install Homebrew:
+</p>
+
+<ol>
+    <li>
+        Open a browser and navigate to 
+        <a href="http://brew.sh/">http://brew.sh</a>
+    </li>
+
+    <li>
+        You should see a command for installing Homebrew near 
+        the top of the page under the tile “Install Homebrew.” 
+        This command will be something like the following:   
+
+        <code>
+            $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+        </code>
+    </li>
+
+    <li>
+        Open your terminal and run the command
+    </li>
+
+    <li>
+        Enter your macOS user password when prompted.
+    </li>
+
+</ol>
+
+<p>
+    Depending on your Internet connection, 
+    it may take a few minutes to download 
+    all of Homebrews required files. 
+    Once the installation is complete, 
+    youll end up back at the shell 
+    prompt in your terminal window.
+
+    
+</p>
+
+<p>
+    Now that Homebrew is installed, 
+    youre ready to install Python.
+</p>
+
+<h2>
+    Step 2: Install Python
+</h2>
+
+<p>
+    Follow these steps to complete the installation with Homebrew:
+</p>
+
+<ol>
+    <li>
+        Open a terminal application.
+    </li>
+
+    <li>
+        Type in the following command to upgrade Homebrew:
+
+        <code>
+            $ brew update && brew upgrade
+        </code>
+
+
+    </li>
+</ol>
+
+<p>
+    Installing with Homebrew is now as straightforward as running 
+    the command brew install python3. This will download and set
+     up the latest version of Python on your machine.
+</p>
+
+<p>
+    You can make sure everything went correctly by testing if you can 
+    access Python from the terminal:
+</p>
+
+<ol>
+    <li>
+        Open a terminal.
+    </li>
+
+    <li>
+        Type pip3 and press enter
+    </li>
+
+    <li>
+        You should see the help text from <a href="https://realpython.com/what-is-pip/">Pythons pip package manager.</a>
+        If you get an error message running pip3, then go through the 
+        install steps again to make sure you have a working installation.
+    </li>
+</ol>
+
+<p>
+    <strong>Congratulations</strong>—you now have Python on your macOS system!
+</p>
+
+<p>
+    <a href="1.html">Back</a>
+</p>

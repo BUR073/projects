@@ -1,0 +1,172 @@
+<head> 
+    <title>Python Projects</title> 
+    <meta charset="UTF-8"> 
+    <meta name="description" content="Website for storing python projects">
+    <meta name="author" content="Conor Sheils"> 
+    <link rel="stylesheet" href="styles.css">
+
+</header>
+
+<body>
+    <h2>
+        Python Numbers
+    </h2>
+
+    <p>
+        There are three numeric types in Python:
+    </p>
+
+    <ul>
+        <li>
+            int
+        </li>
+
+        <li>
+            float
+        </li>
+
+        <li>
+            complex
+        </li>
+    </ul>
+
+    <h2>Example: </h2>
+    <pre>
+        <code>
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+        </code>
+    </pre>
+
+    <p>
+        To verify the type of any object in Python, use the type() function:
+    </p>
+
+    <pre>
+        <code>
+print(type(x))
+print(type(y))
+print(type(z))
+        </code>
+    </pre>
+
+    <h2>
+        Int
+    </h2>
+
+    <p> 
+        Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
+    </p>
+
+  
+    <pre>
+        <code>
+            x = 1
+y = 35656222554887711
+z = -3255522
+
+print(type(x))
+print(type(y))
+print(type(z))
+        </code>
+    </pre>
+
+    <h2>
+        Float
+    </h2>
+
+    <p>
+        Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+    </p>
+
+    <pre>
+        <code>
+x = 1.10
+y = 1.0
+z = -35.59
+
+print(type(x))
+print(type(y))
+print(type(z))
+        </code>
+    </pre>
+
+    <p>
+        Float can also be scientific numbers with an "e" to indicate the power of 10.
+    </p>
+
+    <pre>
+        <code>
+x = 35e3
+y = 12E4
+z = -87.7e100
+
+print(type(x))
+print(type(y))
+print(type(z))
+        </code>
+    </pre>
+
+    <h2>
+        Complex
+    </h2>
+
+    <p>
+    Complex numbers are written with a "j" as the imaginary part:
+    </p>
+
+    <pre>
+        <code>
+x = 3+5j
+y = 5j
+z = -5j
+
+print(type(x))
+print(type(y))
+print(type(z))
+        </code>
+    </pre>
+
+    <h2>
+        Type Conversions
+    </h2>
+
+    <p>
+        You can convert from one type to another with the int(), float(), and complex() methods:
+    </p>
+
+    <pre>
+        <code>
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+#convert from int to float:
+a = float(x)
+
+#convert from float to int:
+b = int(y)
+
+#convert from int to complex:
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+        </code>
+    </pre>
+
+    <p>
+        <em>
+            Note: You cannot convert complex numbers into another number type.
+        </em>
+    </p>
+
+
+</body>

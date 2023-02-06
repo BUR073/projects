@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+  }
+  h1 {
+    color: black;
+    
+    font-family: DejaVu Sans Mono;
+    font-size: 300%;
+  }
+
+  h2 {
+      color : black; 
+
+      font-family: DejaVu Sans Mono;
+      font-size: 200%;
+  }
+
+  p {
+    color: black;
+    border: 1px solid white;
+    padding: 5px;
+    font-family: DejaVu Sans Mono;
+    font-size: 100%;
+  }
+
+  a {
+    color: blue;
+    text-decoration: none; 
+  }
+
+  img {
+    width: 400px;
+    height: auto;
+    }
+
+code { 
+    color: red;
+}
+
+a:link {
+    transition: all .5s linear 0;
+    color: hsl(36,50%,50%);
+}
+a:hover {
+    color: hsl(36,100%,50%);
+}
+
+.fadein {
+    opacity: 0;
+    -moz-transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s;
+    -o-transition: opacity 1.5s;
+    transition: opacity 1.5s;
+}
+
+body.loaded .fadein {
+    opacity: 1;
+}
+
+
